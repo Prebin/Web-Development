@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds</title>
+
+</head>
+
+<body>
+    <h1>Heaviest Birds</h1>
+    <table>
+        <thead>
+            <th>ANIMAL</th>
+            <th>Average Mass(Kg)</th>
+            <th>Average Mass(lb)</th>
+            <th>Maximun Mass(Kg[lb])</th>
+            <th>Flighted</th>
+            <tr>
+                <td>Ostrich</td>
+                <td>104</td>
+                <td>230</td>
+                <td>156.8</td>
+                <td>NO</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90</td>
+                <td>200</td>
+                <td></td>
+                <td>NO</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>Longest Birds</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">ANIMAL</th>
+                <th colspan="2">Average Mass(Kg)</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+            <tr>
+                <th>KG</th>
+                <th>LB</th>
+            </tr>
+            <tr>
+                <td>Ostrich</td>
+                <td>104</td>
+                <td>230</td>
+                <td>NO</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90</td>
+                <td>200</td>
+                <td>NO</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
